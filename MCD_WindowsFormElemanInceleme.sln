@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31829.152
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MCD_WindowsFormElemanInceleme", "MCD_WindowsFormElemanInceleme\MCD_WindowsFormElemanInceleme.csproj", "{7A047900-EB33-4C33-99A8-B132650BBF52}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7A047900-EB33-4C33-99A8-B132650BBF52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A047900-EB33-4C33-99A8-B132650BBF52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A047900-EB33-4C33-99A8-B132650BBF52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A047900-EB33-4C33-99A8-B132650BBF52}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {97C98172-7121-4E2A-9217-9EDE6D29D5E2}
+	EndGlobalSection
+EndGlobal
