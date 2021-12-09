@@ -82,6 +82,7 @@ namespace MCD_WindowsFormElemanInceleme
             this.btnGirisKontrol.TabIndex = 3;
             this.btnGirisKontrol.Text = "Giriş";
             this.btnGirisKontrol.UseVisualStyleBackColor = true;
+            this.btnGirisKontrol.Click += new System.EventHandler(this.btnGirisKontrol_Click);
             // 
             // sistemGiris
             // 
