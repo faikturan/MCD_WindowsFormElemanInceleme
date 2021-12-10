@@ -40,7 +40,7 @@ namespace MCD_WindowsFormElemanInceleme
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label1.Location = new System.Drawing.Point(239, 150);
+            this.label1.Location = new System.Drawing.Point(14, 33);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(106, 18);
             this.label1.TabIndex = 0;
@@ -50,7 +50,7 @@ namespace MCD_WindowsFormElemanInceleme
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label2.Location = new System.Drawing.Point(239, 182);
+            this.label2.Location = new System.Drawing.Point(14, 65);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(50, 18);
             this.label2.TabIndex = 1;
@@ -59,7 +59,7 @@ namespace MCD_WindowsFormElemanInceleme
             // txtKullaniciAdi
             // 
             this.txtKullaniciAdi.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.txtKullaniciAdi.Location = new System.Drawing.Point(362, 147);
+            this.txtKullaniciAdi.Location = new System.Drawing.Point(137, 30);
             this.txtKullaniciAdi.Name = "txtKullaniciAdi";
             this.txtKullaniciAdi.Size = new System.Drawing.Size(176, 26);
             this.txtKullaniciAdi.TabIndex = 2;
@@ -67,7 +67,7 @@ namespace MCD_WindowsFormElemanInceleme
             // txtSifre
             // 
             this.txtSifre.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.txtSifre.Location = new System.Drawing.Point(362, 179);
+            this.txtSifre.Location = new System.Drawing.Point(137, 62);
             this.txtSifre.Name = "txtSifre";
             this.txtSifre.PasswordChar = '*';
             this.txtSifre.Size = new System.Drawing.Size(176, 26);
@@ -76,7 +76,7 @@ namespace MCD_WindowsFormElemanInceleme
             // btnGirisKontrol
             // 
             this.btnGirisKontrol.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnGirisKontrol.Location = new System.Drawing.Point(416, 224);
+            this.btnGirisKontrol.Location = new System.Drawing.Point(191, 107);
             this.btnGirisKontrol.Name = "btnGirisKontrol";
             this.btnGirisKontrol.Size = new System.Drawing.Size(75, 30);
             this.btnGirisKontrol.TabIndex = 3;
@@ -88,13 +88,15 @@ namespace MCD_WindowsFormElemanInceleme
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(369, 164);
+            this.ControlBox = false;
             this.Controls.Add(this.btnGirisKontrol);
             this.Controls.Add(this.txtSifre);
             this.Controls.Add(this.txtKullaniciAdi);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "sistemGiris";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "sistemGiris";
             this.ResumeLayout(false);
             this.PerformLayout();
